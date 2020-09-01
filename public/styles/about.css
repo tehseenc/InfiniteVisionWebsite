@@ -1,0 +1,58 @@
+#header{
+	color:black;#
+	font-size:15px;
+	font-family:"Futura";
+}
+
+#header #bar{
+	margin:2rem;
+}
+
+#header #bar #infvis{
+	font-size: 30px;
+}
+
+#header #bar #about{
+	margin-top:1em;
+}
+
+#header #bar #portfolio{
+	margin-top:1em;
+}
+
+#header #bar #contact{
+	margin-top:1em;
+}
+
+#header #bar #shop{
+	margin-top:1em;
+}
+
+#about-main{
+	font-family: "Futura";
+	padding-top:5rem;
+	text-align: center;
+}
+
+#about-main .row{
+	margin-bottom: 4rem;
+}
+
+#about-main #logo{
+	font-size: 30px;
+}
+#about-main #vis{
+	margin-left:3rem;
+	padding:2.5rem;
+	font-size:25px;
+}
+
+#stock-img{
+	width: 500px;
+	height: 300px;
+}
+
+.link
+{
+color: Black;
+}

@@ -1,0 +1,68 @@
+doctype html
+html
+	head
+		title CSCI 3230U Final Project
+		meta(name='viewport', content='width-device-width, initial-scale=1')
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css')
+		script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+		script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+		script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
+		script(src='https://player.vimeo.com/api/player.js')
+		link(type='text/css', rel='stylesheet', href='styles/contact.css')
+		script(type='text/javascript', src='scripts/contact.js')
+	body
+		#header
+			#bar.row
+				a.link(href='/')
+					#infvis.col-lg-3 INFINITE VISION
+					.col-lg-5
+				a.link(href='/about')
+					#about.col-lg-1 About
+				a.link(href='/portfolio')
+					#portfolio.col-lg-1 Portfolio
+				a.link(href='/contact')
+					#contact.col-lg-1 Contact
+				a.link(href='/shop')
+					#shop.col-lg-1 Shop
+		form(action='/contact', method='post')
+			div(id = 'message' class='content')= message
+			.row
+				.col-lg-1
+				.col-lg-5
+					.form-group
+						label(for='fName:') First Name:
+						textarea.form-control(id='fName',name='fName', rows='1')
+				.col-lg-5
+					.form-group
+						label(for='lName:') Last Name:
+						textarea.form-control(id='lName',name='lName', rows='1')
+				.col-lg-1
+			.row
+				.col-lg-1
+				.col-lg-10
+					label(for='Email:') Email:
+					textarea.form-control(id='Email',name='Email', rows='1')
+				.col-lg-1
+			.row
+				.col-lg-1
+				.col-lg-10
+					label(for='Phone:') Phone Number:
+					textarea.form-control(id='Phone',name='Phone', rows='1')
+				.col-lg-1
+			.row
+				.col-lg-1
+				.col-lg-10
+					label(for='Subject:') Subject:
+					textarea.form-control(id='Subject',name='Subject', rows='1')
+				.col-lg-1
+			.row
+				.col-lg-1
+				.col-lg-10
+					label(for='Message:') Message:
+					textarea.form-control(id='Message', name='Message',rows='4')
+				.col-lg-1
+			.row
+				.col-lg-5
+				.col-lg-2
+					button.btn.btn-outline-dark(type='submit') Submit
+				.col-lg-5

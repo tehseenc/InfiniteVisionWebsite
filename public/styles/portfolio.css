@@ -1,0 +1,90 @@
+#header{
+	color:white;
+	font-size:15px;
+	font-family:"Futura";
+}
+
+#header #bar{
+	margin:2rem;
+}
+
+#header #bar #infvis{
+	font-size: 30px;
+}
+
+#header #bar #about{
+	margin-top:1em;
+}
+
+#header #bar #portfolio{
+	margin-top:1em;
+}
+
+#header #bar #contact{
+	margin-top:1em;
+}
+
+#header #bar #shop{
+	margin-top:1em;
+}
+
+.videoButton {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: 2px solid white;
+  cursor:pointer;
+  overflow: hidden;
+  color: white;
+  font-family: Futura;
+  width: 200px;
+  height: 60px;
+  font-size: 1.5em;
+  position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+}
+
+.background{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   pointer-events: none;
+   overflow: hidden;
+}
+.background iframe { /*used from vimeo support*/
+   width: 100vw;
+   height: 56.25vw; /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+   min-height: 100vh;
+   min-width: 177.77vh; /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+    /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+ .video-portfolio{
+  text-align: center;
+  margin-top: 55%;
+}
+
+#VideoTitle{
+  font-size:4em;
+  font-family: Futura;
+}
+
+#tagline{
+	color:grey;
+}
+
+.link
+{
+color: White;
+}

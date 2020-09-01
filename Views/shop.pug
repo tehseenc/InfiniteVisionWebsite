@@ -1,0 +1,70 @@
+doctype html
+html
+  head
+    title CSCI 3230U Final Project
+    meta(name='viewport', content='width-device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css')
+    script(src='https://code.jquery.com/jquery-3.3.1.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1', crossorigin='anonymous')
+    script(src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM', crossorigin='anonymous')
+    script(src='https://player.vimeo.com/api/player.js')
+    link(type='text/css', rel='stylesheet', href='styles/shop.css')
+    script(type='text/javascript', src='scripts/shop.js')
+  body
+    #header
+      #bar.row
+        a.link(href='/')
+          #infvis.col-lg-3 INFINITE VISION
+          .col-lg-5
+        a.link(href='/about')
+          #about.col-lg-1 About
+        a.link(href='/portfolio')
+          #portfolio.col-lg-1 Portfolio
+        a.link(href='/contact')
+          #contact.col-lg-1 Contact
+        a.link(href='/shop')
+          #shop.col-lg-1 Shop
+    .headline
+      | This is the shop page, here you can purchase prints of our original pictures! (All shot by Tehseen Chaudhry)
+    .row
+      #column.col-lg-3
+        img.img(src='/imgs/Jessie_Reyez/DSC02154.jpg', alt='Jessie Reyez at University of Western Ontario Frosh')
+      #column.col-lg-3
+        h2 Jessie Reyez at University of Western Ontario Frosh
+        p Use the dropdown below to pick the size of your print
+        br
+        br
+        p Costs are listed below
+        p small print: $60
+        p medium print: $100
+        p large print: $180
+        select
+          option(value='small') small
+          option(value='medium') medium
+          option(value='large') large
+        br
+        br
+        form(action='buy', method='post')
+          button.btn(type='Buy!') Buy!
+      #column.col-lg-3
+        img.img(src='/imgs/Justin_Timberlake/IMG_1564.jpg', alt='Justin Timerlake on the Man of The Woods Tour - Toronto')
+      #column.col-lg-3
+        h2 Justin Timerlake on the Man of The Woods Tour - Toronto
+        p Use the dropdown below to pick the size of your print
+        br
+        br
+        p Costs are listed below
+        p small print: $60
+        p medium print: $100
+        p large print: $180
+        select
+          option(value='small') small
+          option(value='medium') medium
+          option(value='large') large
+        form(action='buy2', method='post')
+          button.btn(type='Buy!') Buy!
+        br
+        br
+    form(action='logout', method='post')
+      button#logout.btn.btn-outline-dark(href='login', type='submit') Logout
+    div(id = 'message' class='content')=message

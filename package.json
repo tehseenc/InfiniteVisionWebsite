@@ -1,0 +1,33 @@
+{
+  "name": "finalproject",
+  "version": "1.0.0",
+  "description": "Edmond Jia Rong Liu 100588399 Tehseen Chaudhry - 100618539",
+  "main": "index.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "check-dependencies": "^1.1.0",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.20",
+    "nodemon": "^1.18.10",
+    "pug": "^2.0.3",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeeNom/CSCI3230U_Final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DeeNom/CSCI3230U_Final/issues"
+  },
+  "homepage": "https://github.com/DeeNom/CSCI3230U_Final#readme"
+}

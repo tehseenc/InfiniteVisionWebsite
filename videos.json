@@ -1,0 +1,40 @@
+{
+  "videos": [
+    {  "title": "FRANCESCO YATES",
+       "video": "https://www.youtube.com/embed/sCI9lpFx5Pc",
+       "tagline": "Justin Timberlake Man of The Woods Tour"
+    },
+    {  "title": "THUTMOSE: FROSH CONCERT 2018",
+       "video": "https://www.youtube.com/embed/6REc6HIieX0",
+       "tagline": "University of Western Ontario Frosh"
+    },
+    {  "title": "BUDLIGHT DREAMS MUSIC FESTIVAL",
+       "video": "https://www.youtube.com/embed/ldeaitzaa14",
+       "tagline": "Recap"
+    },
+    {  "title": "LOVE CLOSELY",
+       "video": "https://www.youtube.com/embed/d-fHuHEnpso",
+       "tagline": "Exhibit - Pop up & Party - Trailer"
+    },
+    {  "title": "UNDER ARMOUR",
+       "video": "https://www.youtube.com/embed/8LQ1-d2UBnM",
+       "tagline": "HOVR"
+    },
+    {  "title": "DZEKO",
+       "video": "https://www.youtube.com/embed/nQnb5clXNys",
+       "tagline": "Momentum: New Years Eve Bash"
+    },
+    {  "title": "SAUDIN",
+       "video": "https://www.youtube.com/embed/duID25Yv1Kg",
+       "tagline": "Belize Music Video"
+    },
+    {  "title": "BILLIE EILISH",
+       "video": "https://www.youtube.com/embed/yE0WId7ITNI",
+       "tagline": "Don't Smile At Me Tour"
+    },
+    {  "title": "CERAMIC PRO",
+       "video": "https://www.youtube.com/embed/BiD6zZAMD7A",
+       "tagline": "PPF Vinyl Coating"
+    }
+  ]
+}
